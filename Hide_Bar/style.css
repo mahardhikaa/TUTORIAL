@@ -2,7 +2,7 @@
     width: 15%;
     height: 200px;
     background-color: aqua;
-    margin-top: 200px;   
+    margin-top: 200px;
 }
 
 body{
@@ -15,4 +15,9 @@ body{
     height: 42.5px;
     margin-bottom: 10px;
     background-color: blue;
+    transform: translateX(-80%);
+}
+
+.kotak:hover{
+    transform: translateX(0);
 }
