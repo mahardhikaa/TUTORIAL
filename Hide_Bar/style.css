@@ -16,8 +16,10 @@ body{
     margin-bottom: 10px;
     background-color: blue;
     transform: translateX(-80%);
+    transition: transform .6s cubic-bezier(0,1.31,.75,1.02);
 }
 
 .kotak:hover{
-    transform: translateX(0);
+    transform: translateX(-5%);
+    cursor: pointer;
 }
